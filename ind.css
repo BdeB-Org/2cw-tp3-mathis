@@ -1,0 +1,919 @@
+/*En-tête commune à toutes les pages*/
+.rectangle-top{
+    background-color: rgb(162, 120, 59);
+    border: 20px;
+    height: 30px;
+}
+
+.rectangle-gris{
+    background-color: rgb(55, 55, 55);
+    border: 20px;
+    height: 40px;
+}
+
+
+
+.rectangle-bottom{
+    background-color: rgb(162, 120, 59);
+    border: 20px;
+    height: 32px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 3%;
+    text-decoration: none;
+    
+}
+
+
+nav a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*Page d'accueil*/
+
+
+.tendances-titre{
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items:normal;
+    text-indent: 0%;
+    justify-content: center;
+    margin-top: 1%;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform:uppercase;
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+.maserati-accueil{
+    padding-left: 15%;
+    width: 25%;
+}
+
+.maserati-texte-accueil{
+    text-indent: 19% ;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 20px;
+}
+
+.ferrari-image-accueil{
+    padding-left: 23%;
+    width: 24%;
+}
+
+.ferrari-texte-accueil{
+    text-indent: 72% ;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 20px; 
+    margin-top: -50px;
+}
+
+
+.offre-speciale{
+    border: 50px solid rgb(55, 55, 55);
+    background-color: rgb(55, 55, 55);
+ }
+
+
+.offres{
+    display: flex;
+    flex-direction: row;
+}
+
+.offre-speciale-texte{
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform:uppercase;
+    font-size: 55px;
+    font-weight: lighter;
+    color: white;
+}
+
+.pagani-accueil{
+    padding-left: 12%;
+    width: 25%;
+}
+
+.BMW-accueil{
+    padding-left: 27%;
+    width: 25%;
+}
+
+.pagani-texte-rabais{
+    display: flex;
+    white-space: nowrap;
+    justify-content:flex-start;
+    font-family: 'Khula', sans-serif;
+    font-size: 25px;
+    text-indent: 20%;
+    color: white;
+    margin-left: 11%;
+}
+
+.souligne-rouge{
+    text-decoration: line-through red;
+}
+
+.pagani-nouveau-prix{
+    color: white;
+    display: flex;
+    white-space: nowrap;
+    font-size: 25px;
+    margin-left: 34%;
+    font-family: 'Khula', sans-serif;
+    margin-top: -3.5%;
+}
+
+.BMW-texte-rabais{
+    display: flex;
+    white-space: nowrap;
+    font-family: 'Khula', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-left: 65%;
+    margin-top: -4%
+}
+
+.BMW-nouveau-prix{
+    color: white;
+    display: flex;
+    white-space: nowrap;
+    font-size: 25px;
+    margin-left: 84%;
+    font-family: 'Khula', sans-serif;
+    margin-top: -3.5%;
+}
+
+/*Pages "Voitures"*/
+
+.NosVoitures{
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items:normal;
+    text-indent: 0%;
+    justify-content: center;
+    margin-top: 1%;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform:uppercase;
+    font-size: 55px;
+    font-weight: lighter;
+    
+}
+
+
+.Voitures{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:normal ;
+    white-space: nowrap;
+
+}   
+
+
+.porche-cayenne-menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%;
+    margin-left: 11%;
+
+    
+}
+
+.proche-texte-menu{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 20px;
+    margin-top: 17%;
+    margin-left: -20%;
+
+}
+
+.mercedes-menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60%;
+    margin-top: -15.5%;
+
+}
+
+.mercedes-menu-texte{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: 'Kaisei Opti', serif;
+    margin-top: -2.5%;
+    margin-left: 65%;
+
+}
+
+.rolls-royce-menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 11%;
+    margin-top: 50px;
+
+}
+
+.rolls-royce-menu-texte{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 20px;
+    margin-top: 17%;
+    margin-left: -19%;
+
+}
+
+.audi-menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60%;
+    margin-top: -17%;
+
+}
+
+.audi-menu-texte{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 68%;
+    margin-top: -3%;
+    font-size: 20px;
+    font-family: 'Kaisei Opti', serif;
+
+}
+
+
+
+
+
+/*Page de la porche Cayenne qui se situe dans la page "Voitures"*/
+
+
+.background{
+    background-color: rgb(55, 55, 55);
+}
+
+.porcheImage{
+    max-width: 100%;
+    height: auto;
+}
+
+.Porche-texte{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: -19%;
+    font-size: 50px;
+}
+/*Catégorie moteur du Porche*/
+
+
+.porche-moteur{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-top: -15%;
+}
+
+.moteur-titre{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: 55%;
+    margin-top: 20%;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.moteur-texte{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+/*Catégorie du coffre du Porche*/
+
+.porche-coffre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 43.44%;
+    margin-top: -15%;
+    margin-left: 57%;
+}
+
+.coffe-titre{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 19%;
+    margin-top: 2%;
+}
+
+.coffre-texte{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 7%;
+
+}
+
+/*Catégorie de l'intérieur du Porche*/
+
+.porche-interieur{
+    width: 50%;
+    height: auto;
+    margin-top: -17%;
+}
+
+.interieur-titre{
+    color: white;
+    margin-left: 67%;
+    margin-top: 50px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.interieur-texte{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.porche-ecran{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-left: 60%;
+    margin-top: -19%;
+}
+
+.ecran-titre{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 14%;
+    margin-top: 5%;
+}
+
+.ecran-texte{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 6%;
+
+}
+
+
+
+/*Page Mercedes*/
+.mercedes-texte{
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: -265px;
+    font-size: 50px;
+}
+
+
+/*Coffre Mercedes*/
+
+.coffre-mercedes{
+    width: 650px;
+    margin-top: -270px;
+}
+
+.coffre-mercedes-titre{
+    color: white;
+    margin-left: 975px;
+    margin-top: 200px;
+    font-family: 'Julius Sans One', sans-serif;
+    
+}
+
+.coffre-mercedes-texte{
+    margin-left: 400px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+/*Intérieur Mercedes*/
+
+.interieur-mercedes{
+    width: 800px;
+    margin-top: -3000px;
+    margin-left: 1049px;
+}
+
+
+.interieur-mercedes-titre{
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 340px;
+    margin-top: 150px;
+}
+
+.interieur-mercedes-texte{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-right: 900px;
+}
+
+.titre-page-apropos{
+    text-align: center;
+    font-size: 410%;
+    font-family:'Julius Sans One', sans-serif;
+}
+
+.apropos-p1{
+    font-size: 135%;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.enumeration1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 127%;
+    font-weight: lighter;
+}
+.enumeration2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 127%;
+    font-weight: lighter;
+}
+.contenu{
+    font-size: 127%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.enumeration3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 127%;
+    font-weight: lighter;
+}
+.NousNous{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 127%;
+    font-weight: lighter;
+}
+.EnResume{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 127%;
+    font-weight: lighter;
+}
+.difficulte{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 127%;
+    font-weight: lighter;
+}
+.lienFAQ{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    font-weight:bolder
+}
+.titre-page-FAQ{
+    text-align: center;
+    font-size: 410%;
+    font-family:'Julius Sans One', sans-serif;
+}
+.gras1{
+    font-weight: bolder;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text1{
+    font-weight:lighter;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gras2{
+    font-weight: bolder;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.text2{
+    font-weight:lighter;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gras3{
+    font-weight: bolder;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.text3{
+    font-weight:lighter;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gras4{
+    font-weight: bolder;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.text4{
+    font-weight:lighter;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gras5{
+    font-weight: bolder;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.text5{
+    font-weight:lighter;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/**Rolls Royce**/
+
+/**Image en haut Rolls Royce**/
+
+.RRTop{
+    max-width: 100%;
+    height: 25%;
+}
+
+/**Texte RR Top**/
+.RRTop-texte{
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: -35%;
+    font-size: 50px;
+    color: white;
+}
+
+
+.interieur-RR{
+    width: 40%;
+    margin-top: -15%;
+    margin-left: -2%;
+}
+
+.interieur-RR-titre{
+    color: white;
+    margin-left: 57%;
+    margin-top: 35%;
+    font-family: 'Julius Sans One', sans-serif;
+    display: flex;
+    white-space: nowrap;
+    align-items:normal;
+    font-weight: lighter;
+}
+
+.interieur-RR-texte{
+    margin-left: 35%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    
+}
+
+/**Avant Rolls-Royce**/
+
+
+
+.ecran-RR{
+    width: 43.4%;
+    margin-top: -20%;
+    margin-left: 57%;
+}
+
+
+
+.ecran-RR-titre{
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 16%;
+    margin-top: 7%;
+    display: flex;
+    white-space: nowrap;
+    align-items:normal;
+    font-weight: lighter;
+}
+
+
+.ecran-RR-texte{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-right: 900px;
+}
+
+
+/**Maserati**/
+
+/**Image en haut**/
+
+.Maserati-Top{
+    max-width: 100%;
+    height: 25%;
+}
+
+
+/**Intérieur**/
+
+.interieur-Maserati{
+    width: 50%;
+    margin-top: -20%;
+    margin-left: -2%;
+}
+
+
+
+.interieur-Maserati-titre{
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 65%;
+    margin-top: 5%;
+    display: flex;
+    white-space: nowrap;
+    align-items:normal;
+    font-weight: lighter;
+}
+
+.interieur-Maserati-texte{
+    display: flex;
+    flex-wrap: wrap;
+    
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 49%;
+    margin-top: 2%;
+    justify-content: center;
+    text-align: center;
+}
+
+/**Port électrique**/
+
+.maserati-electrique{
+    width: 43.4%;
+    margin-top: -20%;
+    margin-left: 57%;
+}
+
+.maserati-electrique-titre{
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 16%;
+    margin-top: 7%;
+    display: flex;
+    white-space: nowrap;
+    align-items:normal;
+    font-weight: lighter;
+}
+
+
+.maserati-electrique-texte{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left:4%
+}
+
+
+/**Page de la Audi**/
+.AudiVideo{
+    display: flex;
+    margin-left: -2%;
+
+}
+
+.AudiTop-texte{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: -27%;
+    font-size: 50px;
+    color: white;
+    margin-left: 1%;
+
+}
+
+.photo-Audi{
+    width: 40%;
+    margin-top: -20%;
+    margin-left: -2%;
+}
+
+
+.photo-Audi-titre{
+    color: white;
+    margin-left: 52%;
+    margin-top: 30%;
+    font-family: 'Julius Sans One', sans-serif;
+    display: flex;
+    white-space: nowrap;
+    align-items:normal;
+    font-weight: lighter;
+}
+
+.photo-Audi-texte{
+    margin-left: 45%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    display: flex;
+    
+}
+
+
+.moteur-Audi{
+    width: 43.4%;
+    margin-top: -20%;
+    margin-left: 57%;
+    display: flex;
+}
+
+
+
+.moteur-Audi-titre{
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 12%;
+    margin-top: 7%;
+    display: flex;
+    white-space: nowrap;
+    align-items:normal;
+    font-weight: lighter;
+}
+
+
+.moteur-Audi-texte{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-right: 900px;
+}
+
+/**Page Ferrari**/
+
+
+.FerrariImage{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.interieur-ferrari{
+    display: flex;
+    flex-wrap: wrap;
+    width: 43.44%;
+    margin-top: -12%;
+    margin-left: 57%;
+    
+}
+
+.interieur-ferrari-titre{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 19%;
+    margin-top: 15%;
+    font-weight: lighter;
+}
+
+.interieur-ferrari-texte{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 7%;
+
+}
+
+/*Catégorie de l'intérieur du Porche*/
+
+.moteur-ferrari{
+    width: 50%;
+    height: auto;
+    margin-top: -19%;
+}
+
+.moteur-ferrari-titre{
+    color: white;
+    margin-left: 67%;
+    margin-top: 9%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: lighter;
+}
+
+.moteur-ferrari-texte{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
+.Ferrari-texte{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: -12%;
+    font-size: 50px;
+    color: red;
+    justify-content: center;
+    text-align: center;
+}
+.titre-page-contacter{
+    text-align: center;
+    font-size: 410%;
+    font-family:'Julius Sans One', sans-serif;
+}
+
+.p1{
+    font-size: 220%;
+}
+
+.legende{
+    font-size: 190%;
+}
+
+.question{
+    font-size: 175%;
+}
+
+.boite{
+    font-size: 151%;
+}
+
+.text-boite{
+    font-size: 151%;
+}
+
+.boite-quest{
+    font-size: 190%;
+}
+
+.container{
+    font-size: 175%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.boutons{
+    font-size: 130%;
+    background-color: lightblue;
+    color: black;
+}
+
+.boutons1{
+    font-size: 130%;
+}
