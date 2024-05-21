@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logiquetp3" id="C7749C90-0297-CF52-8797-E586A12642D5" version="3.5">
+<createdBy>mathi</createdBy>
+<createdTime>2024-05-21 21:24:18 UTC</createdTime>
+<ownerDesignName>logiquetp3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C7749C90-0297-CF52-8797-E586A12642D5</designId>
+</OSDM_Design>
