@@ -32,11 +32,23 @@
     </div>
 
     <main>
-        <h1 class="tendances-titre">Page JavaScript 1 </h1>
-        <form id="updateForm">
-            <label for="info">Information:</label>
-            <input type="text" id="info" name="info">
-            <button type="submit">Mettre à jour</button>
+        <h1 class="tendances-titre">Ajouter une Voiture</h1>
+        <form id="addCarForm">
+            <label for="make">Marque:</label>
+            <input type="text" id="make" name="make" required><br>
+            <label for="model">Modèle:</label>
+            <input type="text" id="model" name="model" required><br>
+            <label for="year">Année:</label>
+            <input type="number" id="year" name="year" required><br>
+            <label for="price">Prix:</label>
+            <input type="number" id="price" name="price" required><br>
+            <label for="mileage">Kilométrage:</label>
+            <input type="number" id="mileage" name="mileage" required><br>
+            <label for="color">Couleur:</label>
+            <input type="text" id="color" name="color" required><br>
+            <label for="status">Statut:</label>
+            <input type="text" id="status" name="status" required><br>
+            <button type="submit">Ajouter</button>
         </form>
     </main>
 
